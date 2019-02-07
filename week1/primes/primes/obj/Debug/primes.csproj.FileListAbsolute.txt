@@ -1,0 +1,7 @@
+C:\Users\Aida\Desktop\pp2\week1\primes\primes\bin\Debug\primes.exe.config
+C:\Users\Aida\Desktop\pp2\week1\primes\primes\bin\Debug\primes.exe
+C:\Users\Aida\Desktop\pp2\week1\primes\primes\bin\Debug\primes.pdb
+C:\Users\Aida\Desktop\pp2\week1\primes\primes\obj\Debug\primes.csprojAssemblyReference.cache
+C:\Users\Aida\Desktop\pp2\week1\primes\primes\obj\Debug\primes.csproj.CoreCompileInputs.cache
+C:\Users\Aida\Desktop\pp2\week1\primes\primes\obj\Debug\primes.exe
+C:\Users\Aida\Desktop\pp2\week1\primes\primes\obj\Debug\primes.pdb
