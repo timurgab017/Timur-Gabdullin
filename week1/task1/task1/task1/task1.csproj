@@ -4,13 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{518E0690-30DB-4B31-AE32-97BA2D35808B}</ProjectGuid>
+    <ProjectGuid>{527BD51D-DADA-442D-B3B0-0915969A4E80}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>primes</RootNamespace>
-    <AssemblyName>primes</AssemblyName>
+    <RootNamespace>task1</RootNamespace>
+    <AssemblyName>task1</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>

@@ -10,7 +10,7 @@ namespace Task2
     {
         static void Main(string[] args)
         {
-            Student A = new Student("Aida", "18BD110266"); // Student A's name is Aida with 18BD110266 id 
+            Student A = new Student("Timur", "18BD181381"); // Student A's name is Timur with 18BD181381 id 
             Console.WriteLine(A.getname() ); // shows student A's name via getname function
             Console.WriteLine(A.getid());//shows student A's id via getid function
             Console.ReadKey(); // pauses the execution of the program

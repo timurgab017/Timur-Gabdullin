@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,9 +12,9 @@ namespace primes //
         public static bool Isprime(int n) //the function checks whether the given number is prime or not by counting how many times the number is divided for how many numbers 
         {
             int cnt = 0;
-             for ( int i=1; i<=n; i++)
+            for (int i = 1; i <= n; i++)
             {
-                if (n % i==0)
+                if (n % i == 0)
                     cnt++;
             }
             if (cnt == 2)
@@ -22,7 +22,7 @@ namespace primes //
             else
                 return false;
         }
-               
+
         static void Main(string[] args)
         {
             String a = Console.ReadLine();
@@ -33,19 +33,19 @@ namespace primes //
             String b = Console.ReadLine();
             String[] nums = b.Split(' ');// splits after " "  
 
-            for (int i = 0; i< aa; i++)
+            for (int i = 0; i < aa; i++)
             {
-                
+
                 int numm = int.Parse(nums[i]);
                 if (Isprime(numm))
                 {
-                     primes.Add(numm);
+                    primes.Add(numm);
                 }
             }
 
-           
+
             Console.WriteLine(primes.Count);
-            for (int i=0; i<primes.Count; i++)
+            for (int i = 0; i < primes.Count; i++)
             {
                 Console.Write(primes[i] + " ");
             }
