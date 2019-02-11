@@ -34,7 +34,7 @@ namespace Task3
         }
         static void Main(string[] args)
         {
-            DirectoryInfo d = new DirectoryInfo("C:/Users/acer optane/Desktop/PP2labs/Week1");
+            DirectoryInfo d = new DirectoryInfo("C:/Users/timur/OneDrive/Рабочий стол/PP2/Week2");
             FD(d, 0);
             Console.ReadKey();
 

@@ -11,10 +11,10 @@ namespace Task4
     {
         static void Main(string[] args)
         {
-            string folderName = @"C:/Users/acer optane/Desktop";
+            string folderName = @"C:/Users/timur/OneDrive/Рабочий стол";
             string path = Path.Combine(folderName, "test2");
             Directory.CreateDirectory(path);
-            string source = @"C:/Users/acer optane/Desktop/test";
+            string source = @"C:/Users/timur/OneDrive/Рабочий стол/test";
             string[] files = Directory.GetFiles(source);
             foreach (string file in files)
             {
